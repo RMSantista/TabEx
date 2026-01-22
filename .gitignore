@@ -1,0 +1,20 @@
+# Credenciais
+.clasprc.json
+*.credentials.json
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Node (se usar clasp)
+node_modules/
+package-lock.json
+
+# Logs
+*.log
