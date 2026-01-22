@@ -10,14 +10,14 @@
 
 TabEx automatiza a tabulação de resultados de exames de sangue do SUS (Ribeirão Preto/SP). O sistema monitora uma pasta do Google Drive, extrai dados de PDFs via OCR e organiza os resultados em uma planilha Google Sheets para acompanhamento ao longo do tempo.
 
-**Caso de uso:** Inicialmente desenvolvido para acompanhamento de eletrólitos e função renal, facilitando o monitoramento de exames periódicos para pacientes em tratamento de saúde renal.
+**Caso de uso:** Inicialmente desenvolvido para acompanhamento de eletrólitos e função renal, facilitando o monitoramento de exames periódicos para pacientes em tratamento de saúde.
 
 ## 🛠️ Tecnologias
 
 - **Google Apps Script (V8)** - Runtime e automação
 - **Google Drive API** - OCR nativo para extração de texto de PDFs
 - **Google Sheets API** - Armazenamento e tabulação dos resultados
-- **Vibe Coding/Engineering** - Desenvolvido com Claude Code (Anthropic)
+- **Vibe Coding/Engineering** - Desenvolvido com Claude Code (Anthropic), arquitetado e homologado por desenvolvedor humano.
 
 ## ✨ Funcionalidades
 
@@ -268,6 +268,6 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para de
 
 ---
 
-**Feito com ❤️ para facilitar o acompanhamento de saúde**
+**Feito para facilitar o acompanhamento de saúde**
 
 *Este projeto foi desenvolvido para uso pessoal e educacional. Sempre consulte profissionais de saúde qualificados para interpretação de resultados de exames.*
