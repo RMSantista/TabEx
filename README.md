@@ -236,11 +236,11 @@ O fluxo abaixo mostra o TabEx em funcionamento real, do upload dos PDFs até a t
 
 ---
 
-### 6. Planilha com exames tabulados até 19/02/2026
+### 6. Estado inicial da planilha antes do processamento
 
 ![Exames de 24/02/2026 tabulados](assets/screenshots/06-exames-24-02-2026-tabulados.jpeg)
 
-> Estado inicial da planilha antes do processamento dos novos exames.
+> Planilha com exames tabulados até 19/02/2026, antes de receber os novos PDFs.
 
 ---
 
