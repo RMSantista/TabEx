@@ -1,5 +1,6 @@
 # Credenciais
 .clasprc.json
+.clasp.json
 *.credentials.json
 
 # IDE

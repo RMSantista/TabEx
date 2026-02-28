@@ -52,10 +52,15 @@ Na **linha 1**, adicione os cabeçalhos exatamente como mostrado:
 |---|---|---|---|---|---|---|---|---|
 | Data | Sódio | Potássio | Cálcio | Magnésio | Fósforo | Ureia | Creatinina | TFG |
 
-**IMPORTANTE:**
-- Os nomes devem estar exatamente como acima (com acentos)
-- Use letra maiúscula apenas na primeira letra
-- A coluna A é sempre "Data"
+**IMPORTANTE — Como nomear as colunas de exames:**
+
+O cabeçalho de cada coluna **deve conter o nome do exame**, pois é por ele que o TabEx identifica onde inserir o valor. O nome precisa corresponder exatamente ao configurado no código (incluindo acentos e maiúsculas).
+
+Além do nome do exame, você pode incluir informações complementares como unidade de medida e valores de referência — por exemplo: `Sódio (mEq/L | Ref: 136-145)`. No entanto, essas informações **servem apenas como referência visual para o usuário** e não são interpretadas pelo sistema.
+
+> ⚠️ O TabEx identifica a coluna buscando o nome do exame **dentro** do cabeçalho. Desde que o nome esteja presente, informações adicionais não interferem no funcionamento.
+
+- A coluna A é sempre "Data" e não deve conter dados de exame
 
 ### Passo 3: Formatar Coluna de Data
 
@@ -309,11 +314,15 @@ Você pode adicionar colunas extras com fórmulas para análise:
 
 ## 📸 Template de Planilha
 
-Você pode fazer uma cópia de uma planilha modelo (se disponível) ou criar do zero seguindo este guia.
+Você pode usar o template oficial ou criar a sua própria planilha do zero seguindo este guia.
 
-### Download do Template
+### Template Oficial
 
-*[Futuro: Link para planilha modelo compartilhada]*
+Acesse e faça uma cópia do template pronto:
+
+👉 **[Abrir Template no Google Sheets](https://docs.google.com/spreadsheets/d/1XcGTmRJ2d1M4DcdqykfY220_1w9o3ENCy1hi9jnzOM4/edit?usp=sharing)**
+
+> Para usar: **Arquivo** > **Fazer uma cópia** — e salve na sua conta Google.
 
 ### Criar a Sua Própria
 
