@@ -196,11 +196,11 @@ Execute estas funções pelo editor do Google Apps Script:
 
 O fluxo abaixo mostra o TabEx em funcionamento real, do upload dos PDFs até a tabulação automática na planilha.
 
-### 1. Planilha com exames tabulados até 19/02/2026
+### 1. Novos exames de 24/02/2026 tabulados na planilha
 
 ![Exames tabulados até 19/02/2026](assets/screenshots/01-exames-tabulados-ate-19-02-2026.jpeg)
 
-> Estado inicial da planilha antes do processamento dos novos exames.
+> Os resultados do dia 24/02/2026 aparecem automaticamente como nova linha na planilha.
 
 ---
 
@@ -236,11 +236,11 @@ O fluxo abaixo mostra o TabEx em funcionamento real, do upload dos PDFs até a t
 
 ---
 
-### 6. Novos exames de 24/02/2026 tabulados na planilha
+### 6. Planilha com exames tabulados até 19/02/2026
 
 ![Exames de 24/02/2026 tabulados](assets/screenshots/06-exames-24-02-2026-tabulados.jpeg)
 
-> Os resultados do dia 24/02/2026 aparecem automaticamente como nova linha na planilha.
+> Estado inicial da planilha antes do processamento dos novos exames.
 
 ---
 
