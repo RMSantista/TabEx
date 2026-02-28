@@ -192,6 +192,58 @@ Execute estas funções pelo editor do Google Apps Script:
 └─────────────────┘     └─────────────────┘     └─────────────────┘
 ```
 
+## 📸 Demonstração
+
+O fluxo abaixo mostra o TabEx em funcionamento real, do upload dos PDFs até a tabulação automática na planilha.
+
+### 1. Planilha com exames tabulados anteriormente
+
+![Exames tabulados até 19/02/2026](assets/screenshots/01-exames-tabulados-ate-19-02-2026.jpeg)
+
+> Planilha com os exames já processados e organizados por data de coleta.
+
+---
+
+### 2. Download dos novos PDFs para a pasta Exames
+
+![PDFs baixados para a pasta Exames](assets/screenshots/02-baixado-exames-24-02-2026-para-pasta-exames.jpeg)
+
+> Os PDFs do laboratório são baixados diretamente para a pasta **Exames** no Google Drive.
+
+---
+
+### 3. Exames processados automaticamente (após ~5 minutos)
+
+![Exames processados após 5 minutos](assets/screenshots/03-apos-5min-exames-processados.jpeg)
+
+> O gatilho automático detecta os novos arquivos e realiza OCR + extração dos resultados.
+
+---
+
+### 4. Pasta da data criada em Anteriores
+
+![Pasta 24/02/2026 criada em Anteriores](assets/screenshots/04-pasta-24-02-2026-criada-em-anteriores.jpeg)
+
+> Após o processamento, uma subpasta com a data de coleta é criada automaticamente dentro de **Anteriores**.
+
+---
+
+### 5. PDFs renomeados com o nome do exame e data
+
+![Exames renomeados dentro da pasta](assets/screenshots/05-exames-renomeados-com-data.jpeg)
+
+> Cada PDF é renomeado com o nome do exame e a data, facilitando o rastreamento futuro.
+
+---
+
+### 6. Novos exames tabulados na planilha
+
+![Exames de 24/02/2026 tabulados](assets/screenshots/06-exames-24-02-2026-tabulados.jpeg)
+
+> Os resultados do dia 24/02/2026 aparecem automaticamente como nova linha na planilha.
+
+---
+
 ## ⚠️ Limitações
 
 - Desenvolvido e testado especificamente para exames do SUS de Ribeirão Preto/SP
