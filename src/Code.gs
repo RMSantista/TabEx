@@ -9,7 +9,7 @@
  * @author Rodrigo Marques de Souza
  * @version 1.0.0
  * @license MIT
- * @repository https://github.com/[usuario]/TabEx
+ * @repository https://github.com/seu-usuario/TabEx
  */
 
 // ============================================================================
@@ -403,7 +403,7 @@ function gerarNome(resultados, data) {
 /**
  * Move arquivo para pasta Anteriores, organizando em subpasta por data
  */
-function moverArquivo(arquivo, origem, destino, data) {
+function moverArquivo(arquivo, _origem, destino, data) {
   try {
     let pastaFinal = destino;
 
@@ -420,9 +420,8 @@ function moverArquivo(arquivo, origem, destino, data) {
       }
     }
 
-    // Mover arquivo
-    pastaFinal.addFile(arquivo);
-    origem.removeFile(arquivo);
+    // Mover arquivo (usando moveTo - API atual)
+    arquivo.moveTo(pastaFinal);
     Logger.log('📁 Movido para Anteriores' + (data ? '/' + data.replace(/\//g, '-') : ''));
   } catch (e) {
     Logger.log('⚠️ Erro ao mover: ' + e.message);
@@ -443,8 +442,7 @@ function reprocessarTodos() {
   while (arquivos.hasNext()) {
     const arq = arquivos.next();
     if (arq.getMimeType() === 'application/pdf') {
-      pasta.addFile(arq);
-      anteriores.removeFile(arq);
+      arq.moveTo(pasta);
       count++;
     }
   }
@@ -458,8 +456,7 @@ function reprocessarTodos() {
     while (arquivosSub.hasNext()) {
       const arq = arquivosSub.next();
       if (arq.getMimeType() === 'application/pdf') {
-        pasta.addFile(arq);
-        subpasta.removeFile(arq);
+        arq.moveTo(pasta);
         count++;
       }
     }
